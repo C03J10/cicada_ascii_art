@@ -17,8 +17,8 @@ class ArtistServices {
 
       print('\nArtist name already taken.');
     } catch (error) {
-      final newArtwork = Artist(name, description);
-      _artists.add(newArtwork);
+      final newArtist = Artist(name, description);
+      _artists.add(newArtist);
       print('\nArtist $name has been added!');
     }
   }
